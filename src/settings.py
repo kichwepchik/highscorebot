@@ -35,5 +35,5 @@ def get_settings(path: str):
     )
 
 # Assuming .env file is located in the root of your project directory (same as where you run the script)
-settings = get_settings('../.env')  # Обратите внимание на правильный путь
+settings = get_settings('.env')  # Обратите внимание на правильный путь
 print(settings)
